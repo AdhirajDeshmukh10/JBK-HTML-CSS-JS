@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(175, 197, 154);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(42, 75, 2);
+}
+#pass
+{
+    margin-top: 1%;
+}
+#idbtn
+{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+#err
+{
+    font-size: 20px;
+    color: red;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Document</title>
+    
+    <marquee behavior="alternate" direction="right" scrollamount="20"><b>i am moving</b></marquee></marquee>
+    
+    <pre>
+        margine and padding rules :-
+        10px;                  >>top,bottom,right,left
+        10px 20px;             >>top,bottom  || right,left
+        10px 20px 30px 40px;   >>top || right || bottom || left
+    </pre>
+</head>
+
+<style>
+       table, tr,th ,td{
+
+            padding:5px;
+            border: solid 2px;
+            border-collapse: collapse;
+        }
+        th{
+            background-color: palevioletred;
+        }
+        td{
+            background-color: seashell;
+        }
+        .ok{
+            list-style: none;
+        }
+        .star li::before{
+           
+            content: "\2620";
+        }
+        .faculty{
+           
+        }
+        .faculty:hover{
+            transform: scale(1.1); 
+            box-shadow: 10px 10px 20px 5px black;
+        }
+</style>
+<body>
+    <h1 style="margin: 3%;" align="center"><span style="background-color: yellow; padding: 20px;"> first html page.....</span></h1>
+    <s>my first html page.....</s>
+    <s>my first html page.....</s>
+
+    <table>
+        <tr>
+            <th>Sr.no</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Adhiraj</td>
+            <td>deshmukhadhiraj6@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>AdhirajDeshmukh</td>
+            <td>deshmukhadhiraj6@gmail.com</td>
+        </tr>
+    </table>
+
+    <div>
+        <ol type="i">
+            <li>List no 1</li>
+            <li>List no 2</li>
+            <li>List no 3</li>
+            <li>List no 4</li>
+
+        </ol>
+        <ol type="A">
+            <li>List no 1</li>
+            <li>List no 2</li>
+            <li>List no 3</li>
+            <li>List no 4</li>
+
+        </ol>
+        <ol type="a">
+            <li>List no 1</li>
+            <li>List no 2</li>
+            <li>List no 3</li>
+            <li>List no 4</li>
+
+        </ol>
+
+        <ul class="star">
+            <li>List no 1</li>
+            <li>List no 2</li>
+            <li>List no 3</li>
+            <li>List no 4</li>
+
+        </ul>
+    </div>
+    <div>
+        <form action=""></form>
+        Username :<input type="text" placeholder="username"> <br>
+        Password :<input type="password" placeholder="password"><br>
+        <button style="margin-left: 8%;" type="submit">Submit</button>
+        </form>
+    </div>
+    <img class="faculty" src="fundamental-of-java-website-banner-teachers.jpg"  style="height: 300px; width: 800px; margin-left: 25%;"><br><br><br><br><br>
+
+    <iframe src="https://javabykiran.com/java-classes-contact-pune/" height="300px" width="500px">jbk support frame</iframe>
+    <iframe src="https://www.youtube.com/embed/watch?v=EnIB_J1RoFY&list=PLQU_Gzt0f8XSFaVcYHreOlpLrmbsRjX37" height="300px" width="500px">jbk support frame</iframe>
+</body>
+</html>
+
+<!-- margine and padding rules -40-->
+<!-- Style
+box-shadow ={horizontal offset} {Vertical offset} {blur amount} {shadow size} {color}
+add zoom effect while cursor pointer -->

@@ -1,0 +1,10 @@
+#msg{
+    font-size: 60px;
+    color: red;
+    text-shadow: 7px 5px 3px black;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-weight: 40px;
+    line-height: 20px;
+
+}
